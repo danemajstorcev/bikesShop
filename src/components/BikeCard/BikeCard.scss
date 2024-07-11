@@ -1,0 +1,28 @@
+.bike-card {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  border: 1px solid darkgrey;
+  .img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    img {
+      width: 150px;
+      height: 150px;
+      &:hover{
+        scale: 1.05;
+      }
+    }
+  }
+}
+.bike-info {
+  background-color: #ffc107;
+  padding: 15px;
+  .bike-name{
+    font-weight: bold;
+  }
+}

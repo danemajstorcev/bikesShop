@@ -1,0 +1,30 @@
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px 0px;
+
+  .bikes-count {
+    color: white;
+    background-color: grey;
+    padding: 0px 10px;
+    border-radius: 40%;
+  }
+
+  .btn-name {
+    color: black; 
+    font-weight: bold;
+  }
+
+  &.active {
+    .btn-name {
+      color: orange;
+    }
+
+    .bikes-count {
+      background-color: orange;
+    }
+  }
+}

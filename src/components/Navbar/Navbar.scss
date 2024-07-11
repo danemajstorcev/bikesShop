@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  img {
+    width: 100px;
+    padding-left: 20px;
+    cursor: pointer;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    li {
+      margin-right: 25px;
+      color: #9c9c9c;
+      font-weight: bolder;
+      padding: 5px 15px;
+      &:first-child {
+        color: black;
+      }
+      &:last-child {
+        margin-right: 0px;
+      }
+      &:hover {
+        color: black;
+        cursor: pointer;
+      }
+    }
+  }
+  .search-and-shop {
+    i {
+      color: #9c9c9c;
+      margin-right: 20px;
+      &:hover {
+        color: black;
+        cursor: pointer;
+      }
+    }
+  }
+}

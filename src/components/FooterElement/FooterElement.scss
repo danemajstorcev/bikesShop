@@ -1,0 +1,12 @@
+.footer-element{
+    ul{
+        list-style: none;
+        padding-left: 0;
+        li{
+            &:hover{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+}

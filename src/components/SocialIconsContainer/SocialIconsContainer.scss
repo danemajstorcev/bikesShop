@@ -1,0 +1,14 @@
+.social-icons-container{
+    i{
+        background-color: #ffc107;
+        color: white;
+        margin-right: 15px;
+        padding: 10px;
+        &:last-child{
+            margin-right: 0;
+        }
+        &:hover{
+            background-color: #9e7806;
+        }
+    }
+}
